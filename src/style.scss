@@ -12,6 +12,8 @@
 :root {
   //Color Palette
   --primary: #00bf98;
+  --grey: #d8d8d8;
+  --grey2: #abb0b6;
 }
 
 body {
@@ -22,5 +24,16 @@ body {
 html {
   box-sizing: border-box;
   font-size: 52.5%; // 1rem = 10px, 10px/16px = 62.5%
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
+}
+
+%noLink {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: var(--primary);
+  }
 }

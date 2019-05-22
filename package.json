@@ -12,8 +12,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/ --use autoprefixer --skip-initial --quiet",
-    "watch-css": "yarn build-css && node-sass-chokidar src/ -o src/ --watch --use  --recursive",
+    "build-css": "node-sass-chokidar src/ -o src/ --use autoprefixer",
+    "watch-css": "yarn build-css && node-sass-chokidar src/ -o src/ --watch",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js"
   },

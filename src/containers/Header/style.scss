@@ -1,0 +1,29 @@
+@import "../../style.scss";
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  // height: 30vh;
+  flex: 1 1 auto;
+  font-size: 2.4rem;
+  box-shadow: 0rem 0rem 2rem 0rem var(--grey);
+  &__row {
+  }
+
+  &__logo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    &__item {
+      @extend %noLink;
+    }
+  }
+}

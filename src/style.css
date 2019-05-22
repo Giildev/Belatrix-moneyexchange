@@ -8,7 +8,9 @@
   box-sizing: inherit; }
 
 :root {
-  --primary: #00bf98; }
+  --primary: #00bf98;
+  --grey: #d8d8d8;
+  --grey2: #abb0b6; }
 
 body {
   background-color: white;
@@ -17,4 +19,5 @@ body {
 html {
   box-sizing: border-box;
   font-size: 52.5%;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth; }
