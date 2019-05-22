@@ -13,14 +13,21 @@
       height: 10rem;
       justify-content: center;
       align-items: center; }
-    .calculator__box__input {
+    .calculator__box--container {
+      display: flex;
+      align-items: center;
       border-radius: 1.6rem;
       border: none;
       height: 5rem;
       width: 50rem;
       font-size: 2.4rem;
-      padding-left: 7rem;
       background-color: var(--grey); }
+    .calculator__box__input {
+      border: none;
+      height: 5rem;
+      flex: 0.8 1 auto;
+      font-size: 2.4rem;
+      background-color: transparent; }
       .calculator__box__input:focus {
         outline: none !important; }
   .calculator__button {
@@ -42,3 +49,7 @@
       cursor: pointer; }
     .calculator__button:active {
       transform: translateY(0.5rem); }
+
+.icon {
+  flex: 0.3 1 auto;
+  text-align: center; }

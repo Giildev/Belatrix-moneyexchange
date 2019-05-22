@@ -19,16 +19,22 @@ export default class Calculator extends Component {
       <div className="calculator">
         <div className="calculator__box__container">
           <div className="calculator__box">
-            <input
-              className="calculator__box__input"
-              type="text"
-              placeholder="EUR"
-            />
-            <input
-              className="calculator__box__input"
-              type="text"
-              placeholder="USD"
-            />
+            <div className="calculator__box--container">
+              <i class="fas fa-euro-sign icon" />
+              <input
+                className="calculator__box__input"
+                type="number"
+                placeholder="EUR"
+              />
+            </div>
+            <div className="calculator__box--container">
+              <i class="fas fa-dollar-sign icon" />
+              <input
+                className="calculator__box__input"
+                type="number"
+                placeholder="USD"
+              />
+            </div>
           </div>
         </div>
         <div className="calculator__button">Calculate</div>
