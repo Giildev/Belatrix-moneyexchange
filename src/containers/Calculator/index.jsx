@@ -5,8 +5,6 @@ import axios from "axios";
 import NumberFormat from "react-number-format";
 
 // Components
-import Header from "../Header";
-import Footer from "../Footer";
 
 // Styles
 import "react-toastify/dist/ReactToastify.css";
@@ -23,10 +21,11 @@ export default class Calculator extends Component {
 
   handleSubmit = () => {
     if (
-      this.state.euro == undefined ||
-      this.state.euro == null ||
-      this.state.euro == ""
+      this.state.euro === undefined ||
+      this.state.euro === null ||
+      this.state.euro === ""
     ) {
+      this.setState({ dollar: "" });
       toast.warn("Euro field can not be Empty!");
     } else {
       console.log(typeof this.state.euro);
@@ -61,6 +60,7 @@ export default class Calculator extends Component {
               <NumberFormat
                 className="calculator__box__input"
                 thousandSeparator={true}
+                decimalScale={4}
                 value={this.state.euro}
                 onChange={e => {
                   this.setState({ euro: e.target.value });
@@ -72,6 +72,7 @@ export default class Calculator extends Component {
               <NumberFormat
                 className="calculator__box__input"
                 thousandSeparator={true}
+                decimalScale={4}
                 value={this.state.dollar}
                 readOnly
               />

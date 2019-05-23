@@ -5,7 +5,8 @@
   background-color: var(--grey2); }
   .footer__box {
     width: 30rem;
-    margin: 2rem 0; }
+    margin: 2rem 0;
+    padding: 0 1rem; }
     .footer__box__title {
       margin: 2rem 0;
       font-size: 2.4rem;
@@ -18,3 +19,12 @@
         width: 6rem;
         height: 6rem;
         background-color: var(--grey); }
+
+@media (max-width: 430px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem; }
+    .footer__box {
+      width: 100%;
+      padding: 0 2rem; } }

@@ -73,3 +73,27 @@
 .invalid {
   border: 0.2rem solid red;
 }
+
+@media (max-width: 430px) {
+  .calculator {
+    min-height: 80vh;
+    padding: 0 2rem;
+    &__box {
+      flex-direction: column;
+      width: 100%;
+      height: 20rem;
+
+      &__container {
+        height: auto;
+      }
+
+      &--container {
+        padding: 0 2rem;
+        width: auto;
+      }
+    }
+    &__button {
+      width: 100%;
+    }
+  }
+}

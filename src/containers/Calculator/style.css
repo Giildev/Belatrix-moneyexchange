@@ -56,3 +56,19 @@
 
 .invalid {
   border: 0.2rem solid red; }
+
+@media (max-width: 430px) {
+  .calculator {
+    min-height: 80vh;
+    padding: 0 2rem; }
+    .calculator__box {
+      flex-direction: column;
+      width: 100%;
+      height: 20rem; }
+      .calculator__box__container {
+        height: auto; }
+      .calculator__box--container {
+        padding: 0 2rem;
+        width: auto; }
+    .calculator__button {
+      width: 100%; } }

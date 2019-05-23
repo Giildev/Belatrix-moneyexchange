@@ -17,16 +17,16 @@ export default class Header extends Component {
       <div className="header">
         <div className="header__logo" />
         <div className="header__nav">
-          <a href="#" className="header__nav__item">
+          <a href="#Lorem" className="header__nav__item">
             Lorem
           </a>
-          <a href="#" className="header__nav__item">
+          <a href="#Ipsum" className="header__nav__item">
             Ipsum
           </a>
-          <a href="#" className="header__nav__item">
+          <a href="#Dolor" className="header__nav__item">
             Dolor
           </a>
-          <a href="#" className="header__nav__item">
+          <a href="#Sit" className="header__nav__item">
             Sit
           </a>
         </div>
