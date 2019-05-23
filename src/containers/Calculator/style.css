@@ -53,3 +53,6 @@
 .icon {
   flex: 0.3 1 auto;
   text-align: center; }
+
+.invalid {
+  border: 0.2rem solid red; }
