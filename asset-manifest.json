@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Belatrix-moneyexchange/static/css/main.6cf50eec.chunk.css",
+    "main.js": "/Belatrix-moneyexchange/static/js/main.8ecf9c0c.chunk.js",
+    "main.js.map": "/Belatrix-moneyexchange/static/js/main.8ecf9c0c.chunk.js.map",
+    "runtime~main.js": "/Belatrix-moneyexchange/static/js/runtime~main.5cf75c75.js",
+    "runtime~main.js.map": "/Belatrix-moneyexchange/static/js/runtime~main.5cf75c75.js.map",
+    "static/css/2.39017165.chunk.css": "/Belatrix-moneyexchange/static/css/2.39017165.chunk.css",
+    "static/js/2.bf2e021d.chunk.js": "/Belatrix-moneyexchange/static/js/2.bf2e021d.chunk.js",
+    "static/js/2.bf2e021d.chunk.js.map": "/Belatrix-moneyexchange/static/js/2.bf2e021d.chunk.js.map",
+    "index.html": "/Belatrix-moneyexchange/index.html",
+    "precache-manifest.45a38ef540c725d3d47e370dd14c0cba.js": "/Belatrix-moneyexchange/precache-manifest.45a38ef540c725d3d47e370dd14c0cba.js",
+    "service-worker.js": "/Belatrix-moneyexchange/service-worker.js",
+    "static/css/2.39017165.chunk.css.map": "/Belatrix-moneyexchange/static/css/2.39017165.chunk.css.map",
+    "static/css/main.6cf50eec.chunk.css.map": "/Belatrix-moneyexchange/static/css/main.6cf50eec.chunk.css.map"
+  }
+}
