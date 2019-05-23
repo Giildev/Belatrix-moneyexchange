@@ -32,7 +32,7 @@ _It does not work correctly for **Mixed Content**, HTTPS sending request to HTTP
 
 > None
 
-> ● Saas/Less/Css
+● Saas/Less/Css
 
 > Sass | SCSS - Scss for a structure easier to read and write. at the same time combined with the BEM methodology
 
