@@ -3,7 +3,20 @@
   flex-direction: column;
   font-size: 1.6rem;
   justify-content: space-evenly;
-  flex: 6 1 auto;
+  align-items: center;
+  flex: 10 1 auto;
+  background-color: var(--greyligth);
+
+  &__instruction {
+    text-align: center;
+    &__title {
+      color: var(--primary);
+      margin: 2rem 0;
+    }
+    &__content {
+      margin: 2rem 0;
+    }
+  }
 
   &__box {
     display: flex;
@@ -14,6 +27,8 @@
       height: 10rem;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      transition: all 0.3s;
     }
     &--container {
       display: flex;
@@ -24,6 +39,9 @@
       width: 50rem;
       font-size: 2.4rem;
       background-color: var(--grey);
+      &:hover {
+        border: 0.2rem solid lighten(#ff7f00, 20%);
+      }
     }
     &__input {
       border: none;
@@ -57,6 +75,7 @@
 
     &:hover {
       cursor: pointer;
+      background-color: var(--primary);
     }
 
     &:active {
@@ -85,6 +104,7 @@
 
       &__container {
         height: auto;
+        width: 100%;
       }
 
       &--container {

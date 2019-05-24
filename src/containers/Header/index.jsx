@@ -2,33 +2,21 @@
 import React, { Component } from "react";
 
 // Components
+import MenuItem from "../../components/MenuItem.js";
 
 // Styles
 import "./style.css";
 
 export default class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
       <div className="header">
         <div className="header__logo" />
         <div className="header__nav">
-          <a href="#Lorem" className="header__nav__item">
-            Lorem
-          </a>
-          <a href="#Ipsum" className="header__nav__item">
-            Ipsum
-          </a>
-          <a href="#Dolor" className="header__nav__item">
-            Dolor
-          </a>
-          <a href="#Sit" className="header__nav__item">
-            Sit
-          </a>
+          <MenuItem href="#Lorem" text="Lorem" />
+          <MenuItem href="#Ipsum" text="Ipsum" />
+          <MenuItem href="#Dolor" text="Dolor" />
+          <MenuItem href="#Sit" text="Sit" />
         </div>
       </div>
     );

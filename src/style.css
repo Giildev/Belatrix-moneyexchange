@@ -8,9 +8,11 @@
   box-sizing: inherit; }
 
 :root {
-  --primary: #00bf98;
+  --primary: #ff7f00;
   --grey: #d8d8d8;
-  --grey2: #abb0b6; }
+  --greydark: #3c3c3c;
+  --greyligth: #d8d8d814;
+  --white: #ffffff; }
 
 body {
   background-color: white;
