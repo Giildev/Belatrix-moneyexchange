@@ -42,6 +42,4 @@ It is mentioned that currently only the calculation of the currency must be made
 
 The standard when using numbers for finances is two decimals, in this case four decimals are required
 
-With respect to performing a _cron_ every 10 minutes to obtain the updated value of the currency was not applied, since in this case every time the "Calculate" button is clicked a new request is made to the API, meaning in an updated data at the time of request
-
 No technology was used for _Unit Testing_ due to low knowledge
