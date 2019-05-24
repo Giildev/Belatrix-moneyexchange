@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Belatrix-moneyexchange/precache-manifest.45a38ef540c725d3d47e370dd14c0cba.js"
+  "/Belatrix-moneyexchange/precache-manifest.21e895af8040832057b0cd4678b2e327.js"
 );
 
 self.addEventListener('message', (event) => {
