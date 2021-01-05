@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://giildev.github.io/Belatrix-moneyexchange/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "node-sass-chokidar": "^1.3.4",
